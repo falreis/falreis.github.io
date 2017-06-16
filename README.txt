@@ -1,15 +1,17 @@
-TITLE: 
-Voltage - Responsive Free HTML5 template
+TITLE: falreis website
 
-AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
+AUTHOR: Felipe A. L. Reis
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
-
+Website: http://falreis.eng.br
+Twitter: http://twitter.com/falreis
 
 CREDITS:
+
+Template: 
+Site based on Voltage template, at freehtml5.co
+
+FreeHtml5
+http://freehtml5.co/
 
 Bootstrap
 http://getbootstrap.com/
