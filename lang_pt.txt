@@ -1,4 +1,4 @@
-'{ 
+{ 
 	  "title": "Olá, eu sou o falreis"
 	, "subtitle1": "Engenheiro de Computação, Técnico em Informática Industrial."
 	, "subtitle2": "Em busca do software perfeito."
@@ -39,4 +39,4 @@
 	, "footer-contact": "Contato"
 	, "footer-follow": "Siga"
 	, "footer-about": "Engenheiro de Computação e técnico em Informática Industrial pelo CEFET-MG. Pós-granduando em Engenharia de Produção pela PUC-MG."
-}'
+}
