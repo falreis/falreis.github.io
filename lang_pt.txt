@@ -39,5 +39,5 @@
 	, "methods-love-content": "Escolha quem realmente se importa com aquilo que faz."
 	, "footer-contact": "Contato"
 	, "footer-follow": "Siga"
-	, "footer-about": "Engenheiro de Computação e técnico em Informática Industrial pelo CEFET-MG. Pós-granduando em Engenharia de Produção pela PUC-MG."
+	, "footer-about": "Engenheiro de Computação (CEFET-MG 2012), pós graduado em Engenharia de Produção (PUC-MG 2017). Desenvolvedor full stack desde 2006."
 }

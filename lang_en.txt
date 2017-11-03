@@ -39,5 +39,5 @@
 	, "methods-love-content": "Choose who really care with his work."
 	, "footer-contact": "Contact"
 	, "footer-follow": "Follow"
-	, "footer-about": "Computer Engineer and Industrial Computer Technician by CEFET-MG. Graduate student in Industrial Engineering by PUC-MG"
+	, "footer-about": "Computer Engineer (CEFET-MG 2012) with a long-term graduate course in Industrial Engineering (PUC-MG 2017). Full stack software developer since 2006."
 }
