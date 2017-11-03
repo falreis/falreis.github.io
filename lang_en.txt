@@ -1,7 +1,7 @@
 { 
 	  "title": "Hello, I'm falreis"
-	, "subtitle1": "Computer Engineer with a long-term graduate course in Industrial Engineering."
-	, "subtitle2": "Build things is better than buy it."
+	, "subtitle1": "I'm a Computer Engineer (CEFET-MG 2012) with a long-term graduate course in Industrial Engineering (PUC-MG 2017). Full stack software developer since 2006."
+	, "subtitle2": "I think that build things is far away funnier than buy it. And simple and lightweight solutions can make great things."
 	, "about-title": "About"
 	, "about-content": "I'm a Computer Engineer (CEFET-MG 2012) with a long-term graduate course in Industrial Engineering (PUC-MG 2017). I'm also student at Udacity's Self-Driving Car Engineer Nanodegree program with end predict to 2018."
 	, "about-content2": "I'm a full stack software developer since 2006 for web and desktop environments. I've worked with great and important projects in accountant, educational and finance areas. I've experience most in ASP.NET C#, PHP and Java technologies, for relational databases."
