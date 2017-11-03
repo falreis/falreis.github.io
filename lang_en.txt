@@ -1,9 +1,10 @@
 { 
 	  "title": "Hello, I'm falreis"
-	, "subtitle1": "Computer Engineer, Industrial Computer Technician."
-	, "subtitle2": "Searching for the perfect software."
+	, "subtitle1": "Computer Engineer with a long-term graduate course in Industrial Engineering."
+	, "subtitle2": "Build things is better than buy it."
 	, "about-title": "About"
-	, "about-content": "Computer Engineer (2012) e Industrial Computer Technician (2005) by CEFET-MG. Graduate student in Industrial Engineering by PUC-MG (2017). Senior Full Stack software developer with experience most in ASP.NET C#, PHP and Java technologies, for relational databases. Enthusiastic of new technologies and agile methods. Believes that simple and lightweight solutions can make great things."
+	, "about-content": "I'm a Computer Engineer (CEFET-MG 2012) with a long-term graduate course in Industrial Engineering (PUC-MG 2017). I'm also student at Udacity's Self-Driving Car Engineer Nanodegree program with end predict to 2018."
+	, "about-content2": "I'm a full stack software developer since 2006 for web and desktop environments. I've worked with great and important projects in accountant, educational and finance areas. I've experience most in ASP.NET C#, PHP and Java technologies, for relational databases."
 	, "about-prof-title": "Work"
 	, "about-prof-content": "View my work profile on Linkedin."
 	, "about-lattes-title": "Lattes"
