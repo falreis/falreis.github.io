@@ -3,7 +3,7 @@
 	, "subtitle1": "Engenheiro de Computação (CEFET-MG 2012), pós graduado em Engenharia de Produção (PUC-MG 2017). Desenvolvedor full stack desde 2006."
 	, "subtitle2": "Acredita que construir novas coisas é muito mais divertido que comprá-las. E que soluções simples e leves podem produzir grandes inovações."
 	, "about-title": "Sobre"
-	, "about-content": "Engenheiro de Computação (CEFET-MG 2012), pós graduado em Engenharia de Produção (PUC-MG 2017) e técnico em Informática Industrial (CEFET-MG 2006). Aprendendo tecnologias para Desenvolvimento do carro autônomo no curso Self-Driving Car Engineer Nanodegree (Udacity - previsão 2018)."
+	, "about-content1": "Engenheiro de Computação (CEFET-MG 2012), pós graduado em Engenharia de Produção (PUC-MG 2017) e técnico em Informática Industrial (CEFET-MG 2006). Aprendendo tecnologias para Desenvolvimento do carro autônomo no curso Self-Driving Car Engineer Nanodegree (Udacity - previsão 2018)."
 	, "about-content2": "Sou desenvolvedor full stack desde 2006 para ambientes Desktop e web. Trabalhei com projetos grandes e importantes nas áreas de contabilidade, finanças e educação. Tenho experiência principalmente nas liguagens ASP.NET C#, C++, PHP e JAVA, usando banco de dados relacionais (Oracle, MySQL, Postgre)."
 	, "about-content3": "Veja mais informações sobre mim abaixo.."
 	, "about-prof-title": "Profissional"
