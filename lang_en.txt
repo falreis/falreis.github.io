@@ -1,6 +1,6 @@
 { 
 	  "title": "Hello, I'm falreis"
-	, "subtitle1": "Full stack developer since 2006 and autonomous vehicle enthusiastic."
+	, "subtitle1": "Full stack developer since 2006 and self-driving cars enthusiastic."
 	, "subtitle2": "I believe that building things is a lot more fun than buying it. And in simple and light solutions."
 	, "about-title": "About"
 	, "about-content1": "I'm a Computer Engineer (CEFET-MG 2012) with a long-term graduate course in Industrial Engineering (PUC-MG 2017). I'm also student at Udacity's Self-Driving Car Engineer Nanodegree program with end predict to 2018."
