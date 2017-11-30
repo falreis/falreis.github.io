@@ -50,6 +50,13 @@
 			text-align: left;
 			margin-top: 5px;
 		}
+
+		.icon-social, .icon-social a, a.icon-social{
+			color: #FFF;
+			font-size: 30px;
+			padding-top: 5px;
+			text-align: left;
+		}
 	</style>
 		
 	<script>
@@ -62,22 +69,33 @@
 		ga('send', 'pageview');
 	</script>
 	</head>
-	<body style="background: linear-gradient(#FFF,rgba(88, 202, 126, 0.4));">
+	<body style="background:gold;">
 	<div id="fh5co-page">
 		<nav class="fh5co-nav-style-1" role="navigation" data-offcanvass-position="fh5co-offcanvass-left">
 			<div class="container">
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 fh5co-logo">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 fh5co-logo">
 					<a href="#" class="js-fh5co-mobile-toggle fh5co-nav-toggle"><i></i></a>
 					<a href="index.html" style="background-color:#4C7D5D; color:#FFF; padding: 10px 15px;">fr</a>
 				</div>
-				<div class="col-lg-3 col-md-4 col-sm-4 text-center fh5co-link-wrap">
+				<div class="col-lg-3 col-md-3 col-sm-3 text-center fh5co-link-wrap">
 					<ul data-offcanvass="yes"></ul>
+					<div class="icon-social">
+						<a target="_blank" href="http://linkedin.com/in/falreis"><i class="icon icon-linkedin"></i></a>
+						<a target="_blank" href="https://github.com/falreis"><i class="icon icon-github"></i></a>
+						<a target="_blank" href="https://twitter.com/falreis"><i class="icon icon-twitter"></i></a>
+						<a target="_blank" href="http://facebook.com/falreis.eng"><i class="icon icon-facebook2"></i></a>
+						<a href="skype:falreis?call"><i class="icon icon-skype"></i></a>
+					</div>
 				</div> 
-				<div class="col-lg-6 col-md-5 col-sm-5 text-right fh5co-link-wrap">
+				<div class="col-lg-8 col-md-8 col-sm-8 text-right fh5co-link-wrap">
 					<ul class="fh5co-special" data-offcanvass="yes">
-						<li><a href="#opt_bio">About</a></li>
-						<li><a href="#opt_cons">Services</a></li>
-						<li><a href="#opt_solu">Methods</a></li>
+						<li><a id="menu_bio" href="#opt_bio"></a></li>
+						<li><a id="menu_cons" href="#opt_cons"></a></li>
+						<li><a id="menu_solu" href="#opt_solu"></a></li>
+						<li><a id="menu_cont" href="#footer_contact"></a></li>
+
+						<li><img src="images/brazil-flag.png" onclick="loadPT();" /></li>
+						<li><img src="images/usa-flag.png" onclick="loadEN();" /></li>
 					</ul>
 				</div>
 			</div>
@@ -299,16 +317,11 @@
 	<!--<script src="js/wow.min.js" async onload="startWow()"></script>-->
 		
 	<script type="text/javascript">
-		/*function startWow(){
-			new WOW().init();
-		}*/
-
-		function startIt(){
-			$("#menu_seta").click(function() {
-				$('html, body').animate({
-						scrollTop: $("#opt_bio").offset().top
-				}, 1500);
-			});
+		function startIt(lang="None"){
+			$("#menu_bio").click(function() { $('html, body').animate({scrollTop: $("#opt_bio").offset().top}, 1500); });
+			$("#menu_cons").click(function() { $('html, body').animate({scrollTop: $("#opt_cons").offset().top}, 1500); });
+			$("#menu_solu").click(function() { $('html, body').animate({scrollTop: $("#opt_solu").offset().top}, 1500); });
+			$("#menu_cont").click(function() { $('html, body').animate({scrollTop: $("#footer_contact").offset().top}, 1500); });
 
 			var xmlhttp = new XMLHttpRequest();
 			xmlhttp.onreadystatechange = function() {
@@ -318,6 +331,11 @@
 					$("#title").text(myObj["title"]);
 					$("#subtitle1").text(myObj["subtitle1"]);
 					$("#subtitle2").text(myObj["subtitle2"]);
+
+					$("#menu_bio").text(myObj["about-title"]);
+					$("#menu_cons").text(myObj["services-title"]);
+					$("#menu_solu").text(myObj["methods-title"]);
+					$("#menu_cont").text(myObj["footer-contact"]);
 
 					$("#opt_bio").text(myObj["about-title"]);
 					$("#about_content1").text(myObj["about-content1"]);
@@ -359,20 +377,34 @@
 					$("#methods_continuous_content").text(myObj["methods-continuous-content"]);
 					$("#methods_love_title").text(myObj["methods-love-title"]);
 					$("#methods_love_content").text(myObj["methods-love-content"]);
+
 					$("#footer_contact").text(myObj["footer-contact"]);
 					$("#footer_follow").text(myObj["footer-follow"]);
 					$("#footer_about").text(myObj["footer-about"]);
 				}
 			};
 
-			var language = window.navigator.userLanguage || window.navigator.language;
-			if(language.indexOf("pt") < 0){
-				xmlhttp.open("GET", "lang_en.txt", true);
+			if(lang == "None"){
+				var language = window.navigator.userLanguage || window.navigator.language;
+				if(language.indexOf("pt") < 0)
+					xmlhttp.open("GET", "lang_en.txt", true);
+				else
+					xmlhttp.open("GET", "lang_pt.txt", true);
 			}
-			else{
+			else if(lang == "PT")
 				xmlhttp.open("GET", "lang_pt.txt", true);
-			}
+			else
+				xmlhttp.open("GET", "lang_en.txt", true);
+
 			xmlhttp.send();
+		}
+
+		function loadPT(){
+			startIt("PT");
+		}
+
+		function loadEN(){
+			startIt("EN");
 		}
 	</script>
 	</body>
