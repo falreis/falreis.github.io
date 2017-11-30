@@ -386,16 +386,18 @@
 
 			if(lang == "None"){
 				var language = window.navigator.userLanguage || window.navigator.language;
-				if(language.indexOf("pt") < 0)
+				if(language.indexOf("pt") < 0){
 					xmlhttp.open("GET", "lang_en.txt", true);
-				else
+				}else{
 					xmlhttp.open("GET", "lang_pt.txt", true);
+				}
 			}
-			else if(lang == "PT")
+			else if(lang == "PT"){
 				xmlhttp.open("GET", "lang_pt.txt", true);
-			else
+			}else{
 				xmlhttp.open("GET", "lang_en.txt", true);
-
+			}
+			
 			xmlhttp.send();
 		}
 
