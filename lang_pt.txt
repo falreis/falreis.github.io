@@ -1,9 +1,9 @@
 { 
 	  "title": "Olá, eu sou o falreis"
-	, "subtitle1": "Engenheiro de Computação (CEFET-MG 2012), pós graduado em Engenharia de Produção (PUC-MG 2017). Desenvolvedor full stack desde 2006."
+	, "subtitle1": "Engenheiro de Computação, com especialização em Engenharia de Produção e Engenharia de Carro Autônomo. Mestrando em Informática. Desenvolvedor full stack desde 2006."
 	, "subtitle2": "Acredito que construir novas coisas é muito mais divertido que comprá-las. E que soluções simples e leves podem produzir grandes inovações."
 	, "about-title": "Conheça-me!"
-	, "about-content1": "Engenheiro de Computação (CEFET-MG 2012), pós graduado em Engenharia de Produção (PUC-MG 2017) e técnico em Informática Industrial (CEFET-MG 2006). Aprendendo tecnologias para Desenvolvimento do carro autônomo no curso Self-Driving Car Engineer Nanodegree (Udacity - previsão 2018)."
+	, "about-content1": "Engenheiro de Computação (CEFET-MG 2012), com especialização em Engenharia de Produção (PUC-MG 2017) e Engenharia de Carro Autônomo (UDACITY-2018). Técnico em Informática Industrial (CEFET-MG 2005)."
 	, "about-content2": "Sou desenvolvedor full stack desde 2006 para ambientes Desktop e web. Trabalhei com projetos grandes e importantes nas áreas de contabilidade, finanças e educação. Tenho experiência principalmente nas liguagens ASP.NET C#, C++, PHP e JAVA, usando banco de dados relacionais (Oracle, MySQL, Postgre)."
 	, "about-content3": "Veja mais informações abaixo.."
 	, "about-prof-title": "Profissional"
@@ -42,5 +42,5 @@
 	, "methods-love-content": "Escolha quem realmente se importa com aquilo que faz."
 	, "footer-contact": "Contato"
 	, "footer-follow": "Siga"
-	, "footer-about": "Engenheiro de Computação (CEFET-MG 2012), pós graduado em Engenharia de Produção (PUC-MG 2017). Desenvolvedor full stack desde 2006."
+	, "footer-about": "Engenheiro de Computação, com especialização em Engenharia de Produção e Engenharia de Carro Autônomo. Desenvolvedor full stack desde 2006."
 }
