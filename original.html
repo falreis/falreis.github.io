@@ -49,6 +49,7 @@
 		.about-content{
 			text-align: left;
 			margin-top: 5px;
+			margin-bottom: 15px;
 		}
 
 		.icon-social, .icon-social a, a.icon-social{
@@ -69,8 +70,8 @@
 		ga('send', 'pageview');
 	</script>
 	</head>
-	<body style="background: url('images/background.jpg') no-repeat top; background-size:100%;">
-	<div id="fh5co-page">
+	<body>
+	<div id="fh5co-page" style="background: url('images/background.jpg') no-repeat top; background-size:100%;">
 		<nav class="fh5co-nav-style-1" role="navigation" data-offcanvass-position="fh5co-offcanvass-left">
 			<div class="container">
 				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-right fh5co-logo">
@@ -82,7 +83,6 @@
 						<a target="_blank" href="http://linkedin.com/in/falreis"><i class="icon icon-linkedin">&nbsp;</i></a>
 						<a target="_blank" href="https://github.com/falreis"><i class="icon icon-github">&nbsp;</i></a>
 						<a target="_blank" href="https://twitter.com/falreis"><i class="icon icon-twitter">&nbsp;</i></a>
-						<a target="_blank" href="http://facebook.com/falreis.eng"><i class="icon icon-facebook2">&nbsp;</i></a>
 						<a href="skype:falreis?call"><i class="icon icon-skype">&nbsp;</i></a>
 					</div>
 				</div> 
@@ -117,7 +117,7 @@
 				</div>	
 			</div>
 		</div>
-		<div class="fh5co-features-style-2" style="border-bottom: #EEE solid 1px;">
+		<div class="fh5co-features-style-2" style="background-color:#FFF;border-bottom:#EEE solid 1px;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 text-center">
@@ -131,14 +131,15 @@
 				</div>
 				<div style="height:30px; color:#000;"></div>
 				<div class="row" style="margin:0 7%;">
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+					<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
 						<div class="fh5co-icon"><i class="icon-user"></i></div>
 						<div class="fh5co-desc">
 							<h3 id="about_prof_title"></h3>
 							<p><a href="http://br.linkedin.com/in/falreis" target="_blank" id="about_prof_content"></a></p>
 						</div>	
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+					<!--
+					<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
 						<div class="fh5co-icon"><i class="icon-pencil2"></i></div>
 						<div class="fh5co-desc">
 							<h3 id="about_lattes_title"></h3>
@@ -159,11 +160,12 @@
 							<p><a href="http://github.com/falreis" target="_blank" id="about_github_content"></a></p>
 						</div>
 					</div>
+					-->
 					<div class="clearfix visible-sm-block visible-xs-block"></div>
 				</div>
 			</div>
 		</div>
-		<div class="fh5co-features-style-1" style="background-color:#FFF; border-bottom: #EEE solid 1px;" data-stellar-background-ratio="0.5">
+		<div class="fh5co-features-style-1" style="border-bottom: #EEE solid 1px;" data-stellar-background-ratio="0.5">
 			<div class="container" style="z-index: 3; position: relative;">
 				<div class="row p-b">
 					<div class="col-md-6 col-md-offset-3 text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
@@ -178,16 +180,18 @@
 							<p id="services_web_content"></p>
 						</div>
 						<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
-							<center><div class="icon"><i class=" icon-cogs"></i></div></center>
-							<h3 id="services_optim_title"></h3>
-							<p id="services_optim_content"></p>
+							<center><div class="icon"><i class="icon-line-graph"></i></div></center>
+							<h3 id="services_mining_title"></h3>
+							<p id="services_mining_content"></p>
 						</div>
 						<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s" style="border: 0px #FFF;">
-							<center><div class="icon"><i class="icon-search"></i></div></center>
-							<h3 id="services_seo_title"></h3>
-							<p id="services_seo_content"></p>
+							<!--<center><div class="icon"><i class="icon-bag"></i></div></center>-->
+							<center><div class="icon"><i class="icon-cloud"></i></div></center>
+							<h3 id="services_ti_title"></h3>
+							<p id="services_ti_content"></p>
 						</div>
 					</div>
+					<!--
 					<div class="fh5co-features">
 						<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
 							<center><div class="icon"><i class="icon-cloud"></i></div></center>
@@ -195,20 +199,21 @@
 							<p id="services_cloud_content"></p>
 						</div>
 						<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
-							<center><div class="icon"><i class="icon-line-graph"></i></div></center>
-							<h3 id="services_mining_title"></h3>
-							<p id="services_mining_content"></p>
+							<center><div class="icon"><i class="icon-search"></i></div></center>
+							<h3 id="services_seo_title"></h3>
+							<p id="services_seo_content"></p>
 						</div>
-						<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s" style="border: 0px #FFF;">
-							<center><div class="icon"><i class="icon-bag"></i></div></center>
-							<h3 id="services_ti_title"></h3>
-							<p id="services_ti_content"></p>
+						<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+							<center><div class="icon"><i class=" icon-cogs"></i></div></center>
+							<h3 id="services_optim_title"></h3>
+							<p id="services_optim_content"></p>
 						</div>
 					</div>
+					-->
 				</div>
 			</div>
 		</div>
-		<div class="fh5co-features-style-2">
+		<div class="fh5co-features-style-2" style="background-color: #FFF;">
 			<div class="container">
 				<div class="row p-b">
 					<div class="col-md-6 col-md-offset-3 text-center">
@@ -281,7 +286,7 @@
 						<span id="footer_contact"> Contato</span>
 						</div>
 						<p>
-							<a href="mailto:ola@falreis.eng.br"><i class="icon icon-mail"></i> falreis@gmail.com </a><br />
+							<a href="mailto:me@falreis.eng.br"><i class="icon icon-mail"></i> me@falreis.eng.br</a><br />
 							<a href="tel:5531997136818"><i class="icon icon-phone"></i> +55-31-99713-6818 <i class="icon icon-whatsapp"></i></a><br/>
 							<a href="skype:falreis?call"><i class="icon icon-skype"></i> falreis</a>
 						</p>
@@ -292,10 +297,10 @@
 						<span id="footer_follow"> Siga</span>
 						</div>
 						<p>
-							<a target="_blank" href="http://linkedin.com/in/falreis"><i class="icon icon-linkedin"></i> falreis</a><br />
-							<a target="_blank" href="https://github.com/falreis"><i class="icon icon-github"></i> falreis</a><br />
-							<a target="_blank" href="https://twitter.com/falreis"><i class="icon icon-twitter"></i> falreis</a><br />
-							<a target="_blank" href="http://facebook.com/falreis.eng"><i class="icon icon-facebook2"></i> falreis.eng</a><br />
+							<a target="_blank" href="http://linkedin.com/in/falreis"><i class="icon icon-linkedin"> </i></a>
+							<a target="_blank" href="https://github.com/falreis"><i class="icon icon-github"> </i></a>
+							<a target="_blank" href="https://twitter.com/falreis"><i class="icon icon-twitter"> </i></a>
+							falreis
 						</p>
 					</div>
 					<div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
@@ -329,7 +334,7 @@
 					document.title = myObj.title;
 					$("#title").text(myObj["title"]);
 					$("#subtitle1").text(myObj["subtitle1"]);
-					//$("#subtitle2").text(myObj["subtitle2"]);
+					/*$("#subtitle2").text(myObj["subtitle2"]);*/
 
 					$("#menu_bio").text(myObj["about-title"]);
 					$("#menu_cons").text(myObj["services-title"]);
@@ -342,24 +347,24 @@
 					$("#about_content3").text(myObj["about-content3"]);
 					$("#about_prof_title").text(myObj["about-prof-title"]);
 					$("#about_prof_content").text(myObj["about-prof-content"]);
-					$("#about_lattes_title").text(myObj["about-lattes-title"]);
+					/*$("#about_lattes_title").text(myObj["about-lattes-title"]);
 					$("#about_lattes_content").text(myObj["about-lattes-content"]);
 					$("#about_papers_title").text(myObj["about-papers-title"]);
 					$("#about_papers_content").text(myObj["about-papers-content"]);
 					$("#about_github_title").text(myObj["about-github-title"]);
-					$("#about_github_content").text(myObj["about-github-content"]);
+					$("#about_github_content").text(myObj["about-github-content"]);*/
 
 					$("#opt_cons").text(myObj["services-title"]);
 					$("#services_web_title").text(myObj["services-web-title"]);
 					$("#services_web_content").text(myObj["services-web-content"]);
 					$("#services_ti_title").text(myObj["services-ti-title"]);
 					$("#services_ti_content").text(myObj["services-ti-content"]);
-					$("#services_seo_title").text(myObj["services-seo-title"]);
+					/*$("#services_seo_title").text(myObj["services-seo-title"]);
 					$("#services_seo_content").text(myObj["services-seo-content"]);
 					$("#services_optim_title").text(myObj["services-optim-title"]);
 					$("#services_optim_content").text(myObj["services-optim-content"]);
 					$("#services_cloud_title").text(myObj["services-cloud-title"]);
-					$("#services_cloud_content").text(myObj["services-cloud-content"]);
+					$("#services_cloud_content").text(myObj["services-cloud-content"]);*/
 					$("#services_mining_title").text(myObj["services-mining-title"]);
 					$("#services_mining_content").text(myObj["services-mining-content"]);
 					
