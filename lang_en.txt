@@ -8,6 +8,8 @@
 	, "about-content3": "See more informations below.."
 	, "about-prof-title": "Work"
 	, "about-prof-content": "View my work profile on Linkedin."
+	, "about-curr-title": "Curriculum Vitae"
+	, "about-curr-content": "Download my curriculum vitae in PDF format."
 	, "about-lattes-title": "Lattes"
 	, "about-lattes-content": "View my academic profile on CNPQ Lattes."
 	, "about-papers-title": "Full papers"
