@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row p-b">
             <div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                <div class="fh5co-logo"><span class="logo">{ }</span> falreis</div>
+                <div class="fh5co-logo"><i class="icon-bookmark logo"></i> falreis</div>
                 <p class="fh5co-copyright">
                     &copy; 2018 falreis. <br>
                     Belo Horizonte, Brasil
@@ -10,7 +10,7 @@
                 <br />
             </div>
             <div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-                <div class="fh5co-logo"><span class="logo">[ ]</span>
+                <div class="fh5co-logo"><i class="icon-phone logo"></i> 
                 <span id="footer_contact"> Contato</span>
                 </div>
                 <p>
@@ -21,7 +21,7 @@
             </div>
             <div class="clearfix visible-sm-block"></div>
             <div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
-                <div class="fh5co-logo"><span class="logo"> &#62;</span>
+                <div class="fh5co-logo"><i class="icon-link logo"></i> 
                 <span id="footer_follow"> Siga</span>
                 </div>
                 <p>
@@ -32,7 +32,7 @@
                 </p>
             </div>
             <div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
-                <div class="fh5co-logo"><span class="logo"> &#182;</span> Sobre</div>
+                <div class="fh5co-logo"><i class="icon-user logo"></i> Sobre</div>
                 <p id="footer_about"></p>
             </div>
             <div class="clearfix visible-sm-block"></div>

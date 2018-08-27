@@ -76,25 +76,25 @@ include("inc_body_nav.php");
 			<div class="row">
 				<div class="fh5co-features">
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
-						<a href="software.php">
+						<!-- <a href="development.php"> -->
 							<center><div class="icon"><i class=" icon-monitor"></i></div></center>
-							<h3 id="services_web_title"></h3>
-							<p id="services_web_content"></p>
-						</a>
+							<h3 id="serv_develop_title"></h3>
+							<p id="serv_develop_content"></p>
+						<!-- </a> -->
 					</div>
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
-						<a href="consulting.php">
+						<!-- <a href="consulting.php"> -->
 							<center><div class="icon"><i class="icon-cloud"></i></div></center>
-							<h3 id="services_ti_title"></h3>
-							<p id="services_ti_content"></p>
-						</a>
+							<h3 id="serv_consult_title"></h3>
+							<p id="serv_consult_content"></p>
+						<!-- </a> -->
 					</div>
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s" style="border: 0px #FFF;">
-						<a href="research.php">
-							<center><div class="icon"><i class="icon-line-graph"></i></div></center>
-							<h3 id="services_mining_title"></h3>
-							<p id="services_mining_content"></p>
-						</a>
+						<!-- <a href="research.php"> -->
+							<center><div class="icon"><i class="icon-search"></i></div></center>
+							<h3 id="serv_research_title"></h3>
+							<p id="serv_research_content"></p>
+						<!-- </a> -->
 					</div>
 				</div>
 			</div>
@@ -109,7 +109,7 @@ include("inc_body_nav.php");
 
 <!--............-->
 <?php 
-    include("inc_body_scripts.php");
+    include("inc_body_script_home.php");
 ?>
 <!--............-->
 </body>
