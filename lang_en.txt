@@ -10,7 +10,7 @@
 	, "about_prof_content": "View my work profile on Linkedin."
 	, "about_curr_title": "Curriculum Vitae"
 	, "about_curr_content": "Download my resumé in PDF format."
-	, "about_curr_link": "curriculum/en_felipe_reis.pdf"
+	, "about_curr_link": "curriculum/en_felipe-reis.pdf"
 	, "about_lattes_title": "Lattes"
 	, "about_lattes_content": "View my academic profile on CNPQ Lattes."
 	, "about_papers_title": "Full papers"

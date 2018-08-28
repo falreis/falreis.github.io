@@ -10,7 +10,7 @@
 	, "about_prof_content": "Veja meu currículo completo no Linkedin."
 	, "about_curr_title": "Currículo Completo"
 	, "about_curr_content": "Faça download do meu currículo em PDF."
-	, "about_curr_link": "curriculum/pt_felipe_reis.pdf"
+	, "about_curr_link": "curriculum/pt_felipe-reis.pdf"
 	, "about_lattes_title": "Mais informações"
 	, "about_lattes_content": "Currículo para download, artigos, Lattes e projetos no Github."
 	, "about_papers_title": "Full papers"
