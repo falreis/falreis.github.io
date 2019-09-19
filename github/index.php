@@ -18,7 +18,7 @@
 $REMOTE_REPO        = "git@github.com:falreis/falreis.github.io.git";  
 $BRANCH             = "master";
 
-if ($_POST['payload'] ) {
+//if ($_POST['payload'] ) {
   // Only respond to POST requests from Github
 
   echo($LOCAL_REPO);
@@ -32,6 +32,6 @@ if ($_POST['payload'] ) {
     die("pull done " . mktime());
   }
   else{ echo('pull not done'); }
-}
+//}
 ?>
 
