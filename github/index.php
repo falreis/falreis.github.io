@@ -15,21 +15,19 @@
 **/
 
 // Set Variables
-$LOCAL_ROOT         = "";
-$LOCAL_REPO_NAME    = "falreis/";
-//$LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
-$LOCAL_REPO         = "../";
 $REMOTE_REPO        = "git@github.com:falreis/falreis.github.io.git";  
 $BRANCH             = "master";
 
-if ( $_POST['payload'] ) {
+if ($_POST['payload'] ) {
   // Only respond to POST requests from Github
 
   echo($LOCAL_REPO);
   if( file_exists($LOCAL_REPO) ) {
 
     // If there is already a repo, just run a git pull to grab the latest changes
-    shell_exec("cd {$LOCAL_REPO} && git pull");
+    $time=mktime();
+    $output = shell_exec("git pull >> logs/{$time}.txt");
+    echo "<pre>$output</pre>";
 
     die("pull done " . mktime());
   }
