@@ -11,6 +11,7 @@
 			$("#menu_cons").click(function() { $('html, body').animate({scrollTop: $("#opt_cons").offset().top}, 1500); });
 			$("#menu_solu").click(function() { $('html, body').animate({scrollTop: $("#opt_solu").offset().top}, 1500); });
 			$("#menu_cont").click(function() { $('html, body').animate({scrollTop: $("#footer_contact").offset().top}, 1500); });
+			$("#year").text(new Date().getFullYear());
 
 			var xmlhttp = new XMLHttpRequest();
 			xmlhttp.onreadystatechange = function() {

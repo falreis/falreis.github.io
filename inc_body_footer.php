@@ -4,7 +4,7 @@
             <div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="fh5co-logo"><i class="icon-bookmark logo"></i> falreis</div>
                 <p class="fh5co-copyright">
-                    &copy; 2018 falreis. <br>
+                    &copy; <span id="year"></span> falreis. <br>
                     Belo Horizonte, Brasil
                 </p>
                 <br />
@@ -27,7 +27,7 @@
                 <p>
                     <a target="_blank" href="http://linkedin.com/in/falreis"><i class="icon icon-linkedin"> </i></a>
                     <a target="_blank" href="https://github.com/falreis"><i class="icon icon-github"> </i></a>
-                    <a target="_blank" href="https://twitter.com/falreis"><i class="icon icon-twitter"> </i></a>
+                    <!--<a target="_blank" href="https://twitter.com/falreis"><i class="icon icon-twitter"> </i></a>-->
                     falreis
                 </p>
             </div>

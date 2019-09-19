@@ -1,5 +1,5 @@
 <body>
-<div id="fh5co-page" style="background: url('images/background.jpg') no-repeat top; background-size:100%;">
+<div id="fh5co-page" style="background: url('images/cover.jpg'); background-size:100%;">
     <nav class="fh5co-nav-style-1" role="navigation" data-offcanvass-position="fh5co-offcanvass-left">
         <div class="container">
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-right fh5co-logo">
@@ -10,7 +10,7 @@
                 <div class="icon-social">
                     <a target="_blank" href="http://linkedin.com/in/falreis"><i class="icon icon-linkedin">&nbsp;</i></a>
                     <a target="_blank" href="https://github.com/falreis"><i class="icon icon-github">&nbsp;</i></a>
-                    <a target="_blank" href="https://twitter.com/falreis"><i class="icon icon-twitter">&nbsp;</i></a>
+                    <!--<a target="_blank" href="https://twitter.com/falreis"><i class="icon icon-twitter">&nbsp;</i></a>-->
                     <a href="skype:falreis?call"><i class="icon icon-skype">&nbsp;</i></a>
                 </div>
             </div> 
