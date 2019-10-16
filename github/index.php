@@ -19,19 +19,13 @@ $REMOTE_REPO        = "git@github.com:falreis/falreis.github.io.git";
 $BRANCH             = "master";
 
 //if ($_POST['payload'] ) {
-  // Only respond to POST requests from Github
-
-  echo($LOCAL_REPO);
-  if( file_exists($LOCAL_REPO) ) {
-
+    // Only respond to POST requests from Github
     // If there is already a repo, just run a git pull to grab the latest changes
     $time=mktime();
-    $output = shell_exec("git pull >> logs/{$time}.txt");
+    $output = shell_exec("git stash && git pull >> logs/{$time}.txt");
     echo "<pre>$output</pre>";
 
     die("pull done " . mktime());
-  }
-  else{ echo('pull not done'); }
 //}
 ?>
 
