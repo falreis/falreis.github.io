@@ -1,9 +1,9 @@
 { 
 	  "title": "Hello, I'm Felipe Reis"
-	, "subtitle1": "Freelancer software developer. Computer Engineer with Industrial and Self-Driving Car Engineer specializations. Master candidate in Informatics. Full stack developer since 2006."
+	, "subtitle1": "Computer engineer. Master in Informatics. Specialist in Industrial Engineering and Autonomous Car Engineering."
 	, "subtitle2": "I believe that building things is a lot more fun than buying it. And in simple and light solutions."
 	, "about_title": "My bio"
-	, "about_content1": "I'm a Computer Engineer (CEFET-MG 2012) with a long-term graduate course in Industrial Engineering (PUC Minas 2017) and a Udacity's Self Driving Car Engineering Nanodegree specialization (UDACITY-2018). I'm a Masters Candidate in Computer Science at PUC Minas with end predict to 2019."
+	, "about_content1": "I'm a Computer Engineer (CEFET-MG 2012) with a long-term graduate course in Industrial Engineering (PUC Minas 2017), a Udacity's Self Driving Car Engineering Nanodegree specialization (UDACITY-2018) and a Masters in Informatics (PUC Minas 2020)."
 	, "about_content2": "I'm a full stack software developer since 2006 for web and desktop environments. I've worked with great and important projects in accountant, educational and finance areas. I've experience most in ASP.NET C#, PHP and Java technologies, for relational databases."
 	, "about_content3": "See more informations below.."
 	, "about_prof_title": "Work"
@@ -39,5 +39,5 @@
 	, "methods_love_content": "Choose who really care with his work."
 	, "footer_contact": "Contact"
 	, "footer_follow": "Follow"
-	, "footer_about": "Computer Engineer (CEFET_MG 2012) with a long_term graduate course in Industrial Engineering (PUC_MG 2017). Full stack software developer since 2006."
+	, "footer_about": "Computer Engineer (CEFET_MG 2012) with a masters in Informatics (PUC Minas 2020) a long term graduate course in Industrial Engineering (PUC Minas 2017)."
 }

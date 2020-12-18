@@ -1,10 +1,10 @@
 { 
 	  "title": "Olá, eu sou Felipe Reis"
-	, "subtitle1": "Desenvolvedor freelancer. Engenheiro de Computação, com especialização em Engenharia de Produção e Engenharia de Carro Autônomo. Mestrando em Informática. Desenvolvedor full stack desde 2006."
+	, "subtitle1": "Engenheiro de Computação. Mestre em Informática. Especialista em Engenharia de Produção."
 	, "subtitle2": "Acredito que construir novas coisas é muito mais divertido que comprá-las. E que soluções simples e leves podem produzir grandes inovações."
 	, "about_title": "Sobre"	
 	, "about_content1": "Sou desenvolvedor full stack desde 2006 para ambientes web e desktop. Trabalhei com grandes e importantes projetos nas áreas de contabilidade, de educação e finanças. As linguagens no qual tenho maior experiência são ASP.NET C#, PHP e Java, para banco de dados relacionais. "
-	, "about_content2": "Tenho formação acadêmica em Engenharia de Computação (CEFET-MG 2012), com especialização em Engenharia de Produção (PUC Minas 2017) e Self Driving Car Engineering (UDACITY-2018). Atualmente sou mestrando em Informática pela PUC Minas, com previsão de conclusão em 2019."
+	, "about_content2": "Tenho formação acadêmica em Engenharia de Computação (CEFET-MG 2012), com especialização em Engenharia de Produção (PUC Minas 2017), Self Driving Car Engineering (UDACITY-2018) e mestrado em Informática (PUC Minas 2020)."
 	, "about_content3": "Atualmente, tenho trabalhado e investindo nas áreas de Data Science e desenvolvimento de ferramentas para engenharia. Veja mais informações abaixo."
 	, "about_prof_title": "LinkedIn"
 	, "about_prof_content": "Veja meu currículo completo no Linkedin."
@@ -39,5 +39,5 @@
 	, "methods_love_content": "Escolha quem realmente se importa com aquilo que faz."
 	, "footer_contact": "Contato"
 	, "footer_follow": "Siga"
-	, "footer_about": "Engenheiro de Computação, com especialização em Engenharia de Produção e Engenharia de Carro Autônomo. Desenvolvedor full stack desde 2006."
+	, "footer_about": "Engenheiro de Computação (CEFET-MG 2012), com mestrado em Informática (PUC Minas 2020) e especialização em Engenharia de Produção (PUC Minas 2020)."
 }

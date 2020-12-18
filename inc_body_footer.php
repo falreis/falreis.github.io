@@ -14,7 +14,7 @@
                 <span id="footer_contact"> Contato</span>
                 </div>
                 <p>
-                    <a href="mailto:felipe@falreis.eng.br"><i class="icon icon-mail"></i> felipe@falreis.eng.br</a><br />
+                    <a href="mailto:falreis@gmail.com"><i class="icon icon-mail"></i> falreis@gmail.com</a><br />
                     <a href="tel:5531997136818"><i class="icon icon-phone"></i> +55-31-99713-6818 <i class="icon icon-whatsapp"></i></a><br/>
                     <a href="skype:falreis?call"><i class="icon icon-skype"></i> falreis</a>
                 </p>
