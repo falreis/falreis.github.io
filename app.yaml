@@ -1,0 +1,32 @@
+runtime: php55
+env: standard
+
+handlers:
+- url: /images
+  static_dir: images
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /fonts
+  static_dir: fonts
+
+- url: /sass
+  static_dir: sass
+
+- url: /papers
+  static_dir: papers
+
+- url: /lang
+  static_dir: lang
+
+- url: /
+  script: index.php
+
+- url: /.*
+  secure: always
+  redirect_http_response_code: 301
+  script: auto
