@@ -34,7 +34,7 @@ include("inc_body_nav.php");
 					<h2 class="fh5co-heading wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" id="opt_bio"></h2>
 					<div class="col-md-3 col-sm-12 col-xs-12 col-xxs-12">
 						<span style="display:table-cell; vertical-align: middle;">
-							<img src="images/falreis_linkedin_branco.png" style="max-height: 250px;max-width: 250px;border-radius: 50%;" />
+							<img src="images/falreis_linkedin_branco.jpg" style="max-height: 250px;max-width: 250px;border-radius: 50%;" />
 						</span>
 					</div>
 					<div class="col-md-9 col-sm-12 col-xs-12 col-xxs-12">
