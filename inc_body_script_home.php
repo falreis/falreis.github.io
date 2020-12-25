@@ -54,15 +54,15 @@
 			if(lang == "None"){
 				var language = window.navigator.userLanguage || window.navigator.language;
 				if(language.indexOf("pt") < 0){
-					xmlhttp.open("GET", "lang_en.txt", true);
+					xmlhttp.open("GET", "lang/lang_en.txt", true);
 				}else{
-					xmlhttp.open("GET", "lang_pt.txt", true);
+					xmlhttp.open("GET", "lang/lang_pt.txt", true);
 				}
 			}
 			else if(lang == "PT"){
-				xmlhttp.open("GET", "lang_pt.txt", true);
+				xmlhttp.open("GET", "lang/lang_pt.txt", true);
 			}else{
-				xmlhttp.open("GET", "lang_en.txt", true);
+				xmlhttp.open("GET", "lang/lang_en.txt", true);
 			}
 			
 			xmlhttp.send();

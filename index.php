@@ -17,7 +17,7 @@ include("inc_body_nav.php");
 							</h1>
 							<h2 class="cover-text-sublead wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s" style="color:#FFF;">
 								<span id="subtitle1">
-									Desenvolvedor freelancer. Engenheiro de Computação, com especialização em Engenharia de Produção e Engenharia de Carro Autônomo. Mestrando em Informática. Desenvolvedor full stack desde 2006.
+									Engenheiro de Computação.
 								</span>
 								<br> 
 							</h2>

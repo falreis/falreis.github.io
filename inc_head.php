@@ -8,9 +8,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Cache-control" content="public">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Olá, eu sou Felipe Reis - Engenheiro de computação e desenvolvedor de software nas liguagens ASP.NET C#, PHP, Python, Java e muito mais.</title>
+	<title>Olá, eu sou Felipe Reis - Engenheiro de computação. Mestre em Informática.</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Desenvolvedor freelancer. Engenheiro de Computação, com especialização em Engenharia de Produção e Engenharia de Carro Autônomo. Mestrando em Informática. Desenvolvedor full stack desde 2006." />
+	<meta name="description" content="Engenheiro de Computação. Mestre em Informática. Especialista em Engenharia de Produção. Desenvolvedor full stack desde 2006." />
 	<meta name="keywords" content="falreis, felipe reis, desenvolvedor, software developer, IT, TI" />
 	<meta name="author" content="falreis" />
 	<meta name="google-site-verification" content="e1FWSh-fqRDN1GJ6WP8ivkJ1hIAeT9m9-ZC_igzV2S8" />
