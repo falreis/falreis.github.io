@@ -1,7 +1,7 @@
     <!-- jQuery -->
 	<script src="js/jquery.min.js" async onload="startIt()"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js" async></script>
+	<script src="js/bootstrap.min.js"></script>
 	<!-- WOW -->
 	<!--<script src="js/wow.min.js" async onload="startWow()"></script>-->
 		
