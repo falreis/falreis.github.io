@@ -18,7 +18,7 @@
 				if (this.readyState == 4 && this.status == 200) {
 					myObj = JSON.parse(this.responseText);
 					//document.title = myObj.title;
-					$("#title").text(myObj["title"]);
+					//$("#title").text(myObj["title"]);
 					$("#subtitle1").text(myObj["subtitle1"]);
 					/*$("#subtitle2").text(myObj["subtitle2"]);*/
 
@@ -48,6 +48,8 @@
 					$("#footer_contact").text(myObj["footer_contact"]);
 					$("#footer_follow").text(myObj["footer_follow"]);
 					$("#footer_about").text(myObj["footer_about"]);
+
+					type(myObj["title"], 0);
 				}
 			};
 
@@ -74,5 +76,13 @@
 
 		function loadEN(){
 			startIt("EN");
+		}
+
+		function type(string, index){
+			var val = string.substr(0, index + 1);
+			$("#title").text(val)
+			if (index < string.length) {
+				setTimeout(function(){ type(string, index + 1); }, Math.random() * 250);
+			}
 		}
 	</script>
