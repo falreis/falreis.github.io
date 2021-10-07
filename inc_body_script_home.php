@@ -40,8 +40,8 @@
 					$("#opt_cons").text(myObj["services_title"]);
 					$("#serv_develop_title").text(myObj["serv_develop_title"]);
 					$("#serv_develop_content").text(myObj["serv_develop_content"]);
-					$("#serv_consult_title").text(myObj["serv_consult_title"]);
-					$("#serv_consult_content").text(myObj["serv_consult_content"]);
+					//$("#serv_consult_title").text(myObj["serv_consult_title"]);
+					//$("#serv_consult_content").text(myObj["serv_consult_content"]);
 					$("#serv_research_title").text(myObj["serv_research_title"]);
 					$("#serv_research_content").text(myObj["serv_research_content"]);
 					

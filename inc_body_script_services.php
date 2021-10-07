@@ -24,11 +24,12 @@
 					$("#opt_cons").text(myObj["services_title"]);
 					$("#serv_develop_title").text(myObj["serv_develop_title"]);
 					$("#serv_develop_content").text(myObj["serv_develop_content"]);
-					$("#serv_consult_title").text(myObj["serv_consult_title"]);
-					$("#serv_consult_content").text(myObj["serv_consult_content"]);
+					//$("#serv_consult_title").text(myObj["serv_consult_title"]);
+					//$("#serv_consult_content").text(myObj["serv_consult_content"]);
 					$("#serv_research_title").text(myObj["serv_research_title"]);
 					$("#serv_research_content").text(myObj["serv_research_content"]);
 					
+					/*
 					$("#opt_solu").text(myObj["methods_title"]);
 					$("#methods_os_title").text(myObj["methods_os_title"]);
 					$("#methods_os_content").text(myObj["methods_os_content"]);
@@ -42,6 +43,7 @@
 					$("#methods_continuous_content").text(myObj["methods_continuous_content"]);
 					$("#methods_love_title").text(myObj["methods_love_title"]);
 					$("#methods_love_content").text(myObj["methods_love_content"]);
+					*/
 
 					$("#footer_contact").text(myObj["footer_contact"]);
 					$("#footer_follow").text(myObj["footer_follow"]);

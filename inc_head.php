@@ -59,6 +59,12 @@
 			padding-top: 5px;
 			text-align: left;
 		}
+
+		#lang-pt, #lang-en{
+			color:#fed330;
+			margin: 0 5px;
+			cursor: pointer;
+		}
 	</style>
 
 	<!-- <script>

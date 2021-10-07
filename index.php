@@ -82,13 +82,13 @@ include("inc_body_nav.php");
 							<p id="serv_develop_content"></p>
 						<!-- </a> -->
 					</div>
+					<!--
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
-						<!-- <a href="consulting.php"> -->
-							<center><div class="icon"><i class="icon-cloud"></i></div></center>
-							<h3 id="serv_consult_title"></h3>
-							<p id="serv_consult_content"></p>
-						<!-- </a> -->
+						<center><div class="icon"><i class="icon-cloud"></i></div></center>
+						<h3 id="serv_consult_title"></h3>
+						<p id="serv_consult_content"></p>
 					</div>
+					-->
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s" style="border: 0px #FFF;">
 						<!-- <a href="research.php"> -->
 							<center><div class="icon"><i class="icon-search"></i></div></center>

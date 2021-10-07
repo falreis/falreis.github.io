@@ -3,7 +3,7 @@
     <nav class="fh5co-nav-style-1" role="navigation" data-offcanvass-position="fh5co-offcanvass-left">
         <div class="container">
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-right fh5co-logo">
-                <a href="index.php" style="background-color:#0293d2; color:#FFF; padding: 10px 15px;">fr</a>
+                <a href="index.php" style="background-color: #FFF;color: #0293d2;padding: 10px 15px; font-size: 36px">fr</a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 text-center fh5co-link-wrap">
                 <ul data-offcanvass="yes"></ul>
@@ -20,9 +20,12 @@
                     <li><a id="menu_cons" href="#opt_cons"></a></li>
                     <!--<li><a id="menu_solu" href="#opt_solu"></a></li>-->
                     <li><a id="menu_cont" href="#footer_contact"></a></li>
-
-                    <li><img src="images/brazil-flag.png" onclick="loadPT();" /></li>
-                    <li><img src="images/usa-flag.png" onclick="loadEN();" /></li>
+                    <!-- <li> <img src="images/brazil-flag.png" onclick="loadPT();" /></li>
+                    <li><img src="images/usa-flag.png" onclick="loadEN();" /></li> -->
+                    <li style="margin: 0 20px;">
+                        <a style="margin:0" onclick="loadPT();"><img src="images/brazil-flag.png" width="24"></a>
+                        <a style="margin:0" onclick="loadEN();"><img src="images/usa-flag.png" width="24"></a>
+                    </li>
                 </ul>
             </div>
         </div>
