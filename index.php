@@ -47,7 +47,7 @@ include("inc_body_nav.php");
 				</div>
 			</div>
 			<div style="height:30px; color:#000;"></div>
-			<div class="row" style="margin:0 7%;">
+			<div class="row" style="margin:0 10%;">
 				<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-feature wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
 					<div class="fh5co-icon"><i class="icon-linkedin"></i></div>
 					<div class="fh5co-desc">

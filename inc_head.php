@@ -61,8 +61,7 @@
 		}
 
 		#lang-pt, #lang-en{
-			color:#fed330;
-			margin: 0 5px;
+			margin: 0px;
 			cursor: pointer;
 		}
 	</style>
@@ -78,12 +77,12 @@
 	</script> -->
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18950633-4"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-18950633-4"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 
 		gtag('config', 'UA-18950633-4');
-	</script>
+	</script> -->
 	</head>
