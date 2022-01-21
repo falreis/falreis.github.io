@@ -75,14 +75,23 @@
 		ga('create', 'UA-18950633-4', 'auto');
 		ga('send', 'pageview');
 	</script> -->
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18950633-4"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+		<?php  
+		function isLocalhost(){
+			$whitelist = array('127.0.0.1','::1');
+			return in_array($_SERVER['REMOTE_ADDR'], $whitelist);
+		}
 
-		gtag('config', 'UA-18950633-4');
-	</script>
+		if(!isLocalhost()){ ?>
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18950633-4"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', 'UA-18950633-4');
+			</script>
+		<?php } else{ ?>
+			<span style="color:#FFF;">Desenvolvimento - localhost!!</span>
+		<?php } ?>
 	</head>

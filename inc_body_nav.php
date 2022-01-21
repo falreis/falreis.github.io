@@ -8,10 +8,10 @@
             <div class="col-lg-4 col-md-4 col-sm-4 text-center fh5co-link-wrap">
                 <ul data-offcanvass="yes"></ul>
                 <div class="icon-social">
-                    <a target="_blank" href="http://linkedin.com/in/falreis"><i class="icon icon-linkedin">&nbsp;</i></a>
-                    <a target="_blank" href="https://github.com/falreis"><i class="icon icon-github">&nbsp;</i></a>
+                    <!-- <a target="_blank" href="http://linkedin.com/in/falreis"><i class="icon icon-linkedin">&nbsp;</i></a>
+                    <a target="_blank" href="https://github.com/falreis"><i class="icon icon-github">&nbsp;</i></a> -->
                     <!--<a target="_blank" href="https://twitter.com/falreis"><i class="icon icon-twitter">&nbsp;</i></a>-->
-                    <a href="skype:falreis?call"><i class="icon icon-skype">&nbsp;</i></a>
+                    <!-- <a href="skype:falreis?call"><i class="icon icon-skype">&nbsp;</i></a> -->
                 </div>
             </div> 
             <div class="col-lg-7 col-md-7 col-sm-7 text-right fh5co-link-wrap">
