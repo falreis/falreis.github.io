@@ -34,7 +34,10 @@ include("inc_body_nav.php");
 					<h2 class="fh5co-heading wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" id="opt_bio"></h2>
 					<div class="col-md-3 col-sm-12 col-xs-12 col-xxs-12">
 						<span style="vertical-align: middle; text-align:center;">
-							<img src="images/falreis_linkedin_branco.jpg" style="max-height: 250px;max-width: 250px;border-radius: 50%;" />
+						<picture >
+							<source type="image/webp" srcset="images/falreis_linkedin_branco.webp">
+							<img src="images/falreis_linkedin_branco.jpg" alt="Felipe Reis" class="foto">
+						</picture>
 						</span>
 					</div>
 					<div class="col-md-9 col-sm-12 col-xs-12 col-xxs-12">

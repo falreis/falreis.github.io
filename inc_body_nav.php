@@ -24,8 +24,8 @@
                     <!-- <li> <img src="images/brazil-flag.png" onclick="loadPT();" /></li>
                     <li><img src="images/usa-flag.png" onclick="loadEN();" /></li> -->
                     <li style="margin: 0 20px;">
-                        <a id="lang-pt" onclick="loadPT();"><img src="images/brazil-flag.png" width="24"></a>
-                        <a id="lang-en" onclick="loadEN();"><img src="images/usa-flag.png" width="24"></a>
+                        <a id="lang-pt" onclick="loadPT();"><img src="images/brazil-flag.png" width="24" height="16"></a>
+                        <a id="lang-en" onclick="loadEN();"><img src="images/usa-flag.png" width="24" height="16"></a>
                     </li>
                 </ul>
             </div>

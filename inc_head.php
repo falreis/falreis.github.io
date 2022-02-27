@@ -64,6 +64,14 @@
 			margin: 0px;
 			cursor: pointer;
 		}
+
+		.foto{
+			height:250px; 
+			width:250px; 
+			max-height: 250px;
+			max-width: 250px;
+			border-radius: 50%;
+		}
 	</style>
 
 	<!-- <script>
