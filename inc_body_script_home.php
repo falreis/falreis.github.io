@@ -49,7 +49,7 @@
 					$("#footer_follow").text(myObj["footer_follow"]);
 					$("#footer_about").text(myObj["footer_about"]);
 
-					type(myObj["title"], 0);
+					//type(myObj["title"], 0);
 				}
 			};
 
