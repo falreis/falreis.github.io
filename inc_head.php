@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Cache-control" content="public">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Olá, eu sou Felipe Reis - Engenheiro de computação. Mestre em Informática.</title>
+	<title>Felipe Augusto Lima Reis</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Engenheiro de Computação. Mestre em Informática. Especialista em Engenharia de Produção. Desenvolvedor full stack desde 2006." />
 	<meta name="keywords" content="falreis, felipe reis, desenvolvedor, software developer, IT, TI" />
@@ -27,10 +27,7 @@
 	<meta name="twitter:card" content="falreis" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.png">
-	<!-- Google Fonts -->
-	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Monsterrat:400,700|Merriweather:400,300italic,700' rel='stylesheet' type='text/css'>-->
-		
+	<link rel="shortcut icon" href="favicon.png">		
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css" media="none" onload="if(media!='all')media='all'">
 	<!-- Icomoon Icon Fonts-->

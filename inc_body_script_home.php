@@ -1,16 +1,10 @@
-    <!-- jQuery -->
 	<script src="js/jquery.min.js" async onload="startIt()"></script>
-	<!-- Bootstrap -->
-	<!-- <script src="js/bootstrap.min.js"></script> -->
-	<!-- WOW -->
-	<!--<script src="js/wow.min.js" async onload="startWow()"></script>-->
-		
 	<script type="text/javascript">
 		function startIt(lang="None"){
-			$("#menu_bio").click(function() { $('html, body').animate({scrollTop: $("#opt_bio").offset().top}, 1500); });
-			$("#menu_cons").click(function() { $('html, body').animate({scrollTop: $("#opt_cons").offset().top}, 1500); });
-			$("#menu_solu").click(function() { $('html, body').animate({scrollTop: $("#opt_solu").offset().top}, 1500); });
-			$("#menu_cont").click(function() { $('html, body').animate({scrollTop: $("#footer_contact").offset().top}, 1500); });
+			$("#menu_bio").click(function() { $('html, body').animate({scrollTop: $("#opt_bio").offset().top}, 1000); });
+			$("#menu_cons").click(function() { $('html, body').animate({scrollTop: $("#opt_cons").offset().top}, 1000); });
+			$("#menu_solu").click(function() { $('html, body').animate({scrollTop: $("#opt_solu").offset().top}, 1000); });
+			$("#menu_cont").click(function() { $('html, body').animate({scrollTop: $("#footer_contact").offset().top}, 1000); });
 			$("#year").text(new Date().getFullYear());
 
 			var xmlhttp = new XMLHttpRequest();
@@ -49,7 +43,7 @@
 					$("#footer_follow").text(myObj["footer_follow"]);
 					$("#footer_about").text(myObj["footer_about"]);
 
-					//type(myObj["title"], 0);
+					type(myObj["title"], 0);
 				}
 			};
 
