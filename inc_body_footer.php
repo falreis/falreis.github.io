@@ -1,5 +1,5 @@
 <div class="fh5co-footer-style-3">
-    <div class="container">
+    <div class="container" style="background-color: #026d9b;">
         <div class="row p-b">
             <div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="fh5co-logo"><i class="icon-location logo"></i> falreis</div>
